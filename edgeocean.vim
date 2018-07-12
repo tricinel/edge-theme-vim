@@ -13,10 +13,10 @@ let g:colors_name = "edgeocean"
 if has("gui_running")
   hi Normal guibg=#011638 guifg=#52a6f0 gui=NONE
   hi Cursor guibg=#52a6f0
-  hi CursorLine guibg=#0f4f68
-  hi LineNr guifg=#0f4f68
+  hi CursorLine guibg=#0c2a59
+  hi LineNr guifg=#0c2a59
   hi Directory guifg=#52a6f0 gui=bold
-  hi Search guifg=#52a6f0 guibg=#265a63 gui=NONE
+  hi Search guifg=#52a6f0 guibg=#0d3d45 gui=NONE
   hi Pmenu guifg= guibg= gui=NONE
   hi PmenuSel guifg= guibg= gui=NONE
   hi PMenuSbar guibg=#52a6f0 gui=NONE
@@ -26,10 +26,10 @@ if has("gui_running")
 else
   hi Normal ctermbg=234 ctermfg=75 cterm=NONE
   hi Cursor ctermbg=75
-  hi CursorLine ctermbg=23
-  hi LineNr ctermfg=23
+  hi CursorLine ctermbg=17
+  hi LineNr ctermfg=17
   hi Directory ctermfg=75 cterm=bold
-  hi Search ctermfg=75 ctermbg=23 cterm=NONE
+  hi Search ctermfg=75 ctermbg=236 cterm=NONE
   hi Pmenu ctermfg= ctermbg= cterm=NONE
   hi PmenuSel ctermfg= ctermbg= cterm=NONE
   hi PMenuSbar ctermbg=75 cterm=NONE
