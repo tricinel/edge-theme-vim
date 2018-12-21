@@ -17,8 +17,8 @@ if has("gui_running")
   hi LineNr guifg=#0c2a59
   hi Directory guifg=#52a6f0 gui=bold
   hi Search guifg=#52a6f0 guibg=#0d3d45 gui=NONE
-  hi Pmenu guifg= guibg= gui=NONE
-  hi PmenuSel guifg= guibg= gui=NONE
+  hi Pmenu guifg=#52a6f0 guibg=#011638 gui=NONE
+  hi PmenuSel guifg=#011638 guibg=#0c2a59 gui=NONE
   hi PMenuSbar guibg=#52a6f0 gui=NONE
   hi PMenuThumb guibg=#011638 gui=NONE
 
@@ -30,8 +30,8 @@ else
   hi LineNr ctermfg=17
   hi Directory ctermfg=75 cterm=bold
   hi Search ctermfg=75 ctermbg=236 cterm=NONE
-  hi Pmenu ctermfg= ctermbg= cterm=NONE
-  hi PmenuSel ctermfg= ctermbg= cterm=NONE
+  hi Pmenu ctermfg=75 ctermbg=234 cterm=NONE
+  hi PmenuSel ctermfg=234 ctermbg=17 cterm=NONE
   hi PMenuSbar ctermbg=75 cterm=NONE
   hi PMenuThumb ctermbg=234 cterm=NONE
 
